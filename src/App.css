@@ -13,7 +13,7 @@
 }
 
 .main:before {
-  background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #d1d1e0 100%);
+  background: radial-gradient(circle, rgba(74, 66, 227, 0) 0, #d1d1e0 100%);
   position: absolute;
   content: "";
   z-index: 2;
@@ -44,11 +44,11 @@
       hsla(215, 52%, 45%, 1) 0px,
       transparent 0%
     ),
-    radial-gradient(at 97% 21%, hsla(125, 52%, 50%, 1) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, hsla(354, 52%, 50%, 1) 0px, transparent 50%),
+    radial-gradient(at 97% 21%, rgb(132, 61, 194) 0px, transparent 50%),
+    radial-gradient(at 52% 99%, rgb(123, 4, 235) 0px, transparent 50%),
     radial-gradient(at 10% 29%, hsla(256, 52%, 50%, 1) 0px, transparent 50%),
-    radial-gradient(at 97% 96%, hsla(38, 52%, 50%, 1) 0px, transparent 50%),
-    radial-gradient(at 33% 50%, hsla(222, 52%, 50%, 1) 0px, transparent 50%);
+    radial-gradient(at 97% 96%, rgb(109, 145, 203) 0px, transparent 50%),
+    radial-gradient(at 33% 50%, rgb(87, 135, 247) 0px, transparent 50%);
   position: absolute;
   content: "";
   width: 100%;
@@ -57,7 +57,6 @@
   top: 80px;
   opacity: 0.15;
 }
-
 
 .copy_btn {
   display: flex;
@@ -75,7 +74,6 @@
 }
 
 
-
 @media screen and (max-width: 640px) {
   .main {
     padding: 0;
@@ -90,6 +88,10 @@
 
 .black_btn {
   @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
+}
+
+.blue_btn {
+  @apply rounded-full border border-blue-500 bg-blue-400 py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
 }
 
 .head_text {

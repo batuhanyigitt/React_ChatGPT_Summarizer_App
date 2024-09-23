@@ -17,6 +17,15 @@ const Hero = () => {
         >
           GitHub
         </button>
+        <button
+          type='button'
+          onClick={() =>
+            window.open("https://www.linkedin.com/in/batuhan-yiğit-19b67a149/", "_blank")
+          }
+          className='blue_btn'
+        >
+          LinkedIn
+        </button>
       </nav>
 
       <h1 className='head_text'>
@@ -24,8 +33,7 @@ const Hero = () => {
         <span className='orange_gradient '>OpenAI GPT-4</span>
       </h1>
       <h2 className='desc'>
-        Simplify your reading with Summize, an open-source article summarizer
-        that transforms lengthy articles into clear and concise summaries
+        Make reading easier with Summize, an open-source article summarizer that turns long articles into clear and concise summaries.
       </h2>
     </header>
   );
